@@ -1,19 +1,12 @@
 // https://laravel-mix.com/docs/4.0/installation
 
 const mix = require("laravel-mix");
+// const path = require("path");
 
-mix.setPublicPath("/");
+// mix.setPublicPath(path.normalize("./public"));
 
-mix
-  .sass("src/app.scss", "public")
-  .js("src/app.js", "public")
-  .sourceMaps();
-//   .browserSync({
-//     injectChanges: true,
-//     files: ["**/*.js", "**/*.css"],
-//     logSnippet: true
-//     //   proxy:'my-site.dev',
-//   });
+mix.sass("src/app.scss", "public");
+// mix.js("src/app.js", "public");
 
 /*
  |--------------------------------------------------------------------------

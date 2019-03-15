@@ -2,5 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,500,700");
 @import url("https://fonts.googleapis.com/css?family=Questrial");
 
-@import "custom.scss";
+$theme-colors: (
+  "primary": #36b3a8
+);
+
 @import "~bootstrap/scss/bootstrap";
+@import "custom.scss";
