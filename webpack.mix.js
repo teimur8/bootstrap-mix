@@ -6,7 +6,7 @@ const mix = require("laravel-mix");
 // mix.setPublicPath(path.normalize("./public"));
 
 mix.sass("src/app.scss", "public");
-// mix.js("src/app.js", "public");
+mix.js("src/app.js", "public");
 
 /*
  |--------------------------------------------------------------------------
